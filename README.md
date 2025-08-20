@@ -1,15 +1,15 @@
-# Paraphraser-On-Demand
+Paraphraser-On-Demand
+=====================
 
-Uma extensão para [SillyTavern](https://github.com/SillyTavern/SillyTavern) que adiciona um botão ao lado do input do usuário.  
-Com um clique, ela reformula a última mensagem escrita, mantendo o mesmo sentido, mas trocando as palavras.
+Instalação:
+- Coloque a pasta Paraphraser-On-Demand em `scripts/extensions/third-party/`.
+- Reinicie/atualize SillyTavern.
+- Configure a conexão de IA nas Settings do ST (o plugin usa o profile/preset corrente).
 
-## Instalação
-1. No SillyTavern, vá em **Extensions → Install from URL**.
-2. Cole este link: https://github.com/ganbuscovick/paraphraser-on-demand
-3. Ative a extensão em **Extensions → Manage**.
+O que faz:
+- Adiciona um botão ao lado do QR/Extensions bar.
+- Ao clicar, captura sua última mensagem de usuário, pede para a IA reescrever mantendo sentido e emoção.
+- Substitui a mensagem no chat pela versão reescrita (modo atual). 
 
-## Configuração
-Por padrão, a extensão chama um endpoint `http://localhost:5000/paraphrase`.  
-Você pode trocar esse endpoint no `paraphraser.js` para:
-- Uma API local (Oobabooga, LM Studio, etc).
-- Um proxy seu que conversa com Gemini/OpenAI.
+Notas:
+- Se o endpoint interno estiver protegido na sua instalação, verá erro 403 no console. Me manda o log que eu ajusto.

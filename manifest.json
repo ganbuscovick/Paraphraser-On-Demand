@@ -1,7 +1,13 @@
 {
-  "name": "Paraphraser On Demand",
-  "author": "Rety",
-  "description": "Adiciona um botão que reformula a mensagem do usuário sem alterar o sentido.",
+  "display_name": "Paraphraser-On-Demand",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "Ret",
   "version": "1.0.0",
-  "entry": "paraphraser.js"
+  "homePage": "",
+  "auto_update": false,
+  "i18n": {}
 }
