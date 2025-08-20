@@ -1,0 +1,7 @@
+{
+  "name": "Paraphraser On Demand",
+  "author": "Rety",
+  "description": "Adiciona um botão que reformula a mensagem do usuário sem alterar o sentido.",
+  "version": "1.0.0",
+  "entry": "paraphraser.js"
+}
